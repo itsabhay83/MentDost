@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caring Comet</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/botstyle.css.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="{{ url_for('static', filename='css/script.js') }}" defer></script>
+
+</head>
+
+<body>
+    <!-- <h1 class="alpha-slab"> The Caring Comet </h1> -->
+    <div class="content">
+        <h2>Caring Comet</h2>
+        <h2>Caring Comet</h2>
+    </div>
+
+    <div class="hero">
+        <div class="about">
+            <div class="img half-width">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2Fphotos%2Fmental-health.html&psig=AOvVaw1mbDc7cgV9q1JmA8-XWjpw&ust=1709912009041000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLietuC84oQDFQAAAAAdAAAAABAE" alt="logo" width="500" height="500">
+
+            </div>
+            <div class="about-text half-width">
+                <p> Welcome to Caring Comet, where we orbit around your emotional well-being, lighting up the path to a
+                    healthier mind and
+                    heart. 🌟 <br><br>
+
+                    At Caring Comet, we understand that your emotional health is a journey, and we're here to be your
+                    steadfast companion
+                    along the way. Meet Comet, our empathetic chatbot, ready to lend a listening ear and provide support
+                    whenever you need
+                    it.<br><br>
+
+                    Explore our Resources hub, a treasure trove of insights, tools, and tips designed to empower you on
+                    your emotional
+                    well-being journey. Take our psychometric test, a personalized compass guiding you to self-discovery
+                    and understanding.
+                </p>
+            </div>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li class="a"><a href="/resources"><button><b>Look at Resources</b></button></a></li>
+                <li class="b"><a href="/doctor"><button><b>Find Doctors</b></button></a></li>
+                <li class="c"><a href="/test"><button><b>Take a Psychometric Test</b></button></a></li>
+                <li class="d"><a href="/chatbot">
+                    <button id="access-chatbot"><b>Go to Comet - our Emotional Support Bot</b></button></a>
+                </li>
+            </ul>
+        </div>
+        <!-- <div class="chatbot">
+            <header>
+                <h2>Comet</h2>
+                <span class="close-btn material-symbols-outlined">close</span>
+            </header>
+            <ul class="chatbox">
+                <li class="chat incoming">
+                    <span class="material-symbols-outlined">&#129302;</span>
+                    <p>Hi there 👋<br>How can I help you today?</p>
+                </li>
+            </ul>
+            <div class="chat-input">
+                <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+                <span id="send-btn" class="material-symbols-rounded"><i class="material-icons">send</i></span>
+            </div>
+        </div> -->
+    </div>
+    <div id="wall">
+        <h1 class="alpha-slab"> Leave Your Thoughts Here</h1>
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left" onsubmit="submitForm(event)">
+                <div class="contact-left-title">
+                    <h2>Get In Touch</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="df4ebec9-f102-48fd-91e2-9e440e424ed5">
+                <input type="text" name="name" placeholder="Enter Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Enter Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Submit</button>
+                <h4 id="msg" style="color: white;"></h4>
+            </form>
+            <div class="contact-right">
+                <image src="images/astronautCropped.gif"></image>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="background-color:black;">
+    <div class="back-btn">
+        <a href="index.html"><button> Go Back </button></a>
+    </div>
+    <h1 class="alpha-slab"> The Caring Comet </h1>
+    <div class="dropdown-container">
+        <select class="resources-dropdown" id="resourcesDropdown" onchange="showInformation()">
+            <option value="" disabled selected>Select Resource</option>
+            <option value="self-help">Self Help Videos</option>
+            <option value="blogs">Blogs and Articles</option>
+            <option value="help">Helpline Contacts</option>
+            <option value="affirmations">Affirmations and Quotes</option>
+            <option value="mindfulness">Mindfulness and Relaxation Exercises</option>
+        </select>
+    </div>
+
+    <div class="information-container">
+        <div id="logo-resource">
+            <img src="./images/logo.png" width="500px" height="500px">
+        </div>
+        <div id="self-help-info" class="resource-info">
+            <div class="resource-content">
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/G0zJGDokyWQ?si=26MJejoM5MlcZVqN"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> What is Mental Health? </p>
+                </div>
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/odADwWzHR24?si=nnYLafmV4MXF_IDA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> Relive Stress and Anxiety - Breathing Techniques </p>
+                </div>
+            </div>
+            <div class="resource-content">
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/di073P8thXI?si=DxaNYfa3GZ4EU7m-"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> 5 Tips to Improve your Sleep </p>
+                </div>
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rU8APAwp6io?si=Mnz7cx8DQm5M3hcQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> What to do When you feel like Doing Nothing </p>
+                </div>
+            </div>
+            <div class="resource-content">
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/z4s-6N8f0a4?si=gjWDs9Q9_FbBvJAA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> Basics of Self Care </p>
+                </div>
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7CcZ7gyFXv0?si=BYfvIL9U1Q7mk-Xt"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> How to Journal for Anxiety and Depression </p>
+                </div>
+            </div>
+            <div class="resource-content">
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Wh5HyJ1rxzk?si=QAk5s9Q9jat15Uxt"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> Tips for Managing Stress </p>
+                </div>
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4c_xYLwOx-g?si=aI4K55pDRlUgWrFu"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> 3 Rules for Better Work Life Balance </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="blogs-info" class="resource-info">
+            <div class="resource-content">
+                <div class="video-box">
+                    <embed src="https://main.icmr.nic.in/sites/default/files/reports/Mental_Health.pdf"
+                        style="width:560px; height: 315px;">
+                    <p> Mental Health Research in India</p>
+                </div>
+                <div class="video-box">
+                    <a href="https://www.beyondblue.org.au/mental-health/personal-stories"><img
+                            src="./images/personalStories.png" style="width:560px; height: 315px;"></a>
+                    <p> Personal Stories of overcoming Mental Health Challenges</p>
+                </div>
+            </div>
+            <div class="resource-content">
+                <div class="video-box">
+                    <a href="https://www.psycom.net/fomo-to-jomo"><img src="./images/fomoToJomo.webp"
+                            style="width:560px; height: 315px;"></a>
+                    <p> How to Turn FOMO into JOMO </p>
+                </div>
+                <div class="video-box">
+                    <a href="https://www.psycom.net/imposter-syndrome"><img src="./images/imposterSyndrome.webp"
+                            style="width:560px; height: 315px;"></a>
+                    <p> Imposter Syndrome</p>
+                </div>
+            </div>
+
+            <div class="resource-content">
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/j-8TAgYimt8?si=YoWHrbm2cJc3k103"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> Best Self-Help Books for Mental Health </p>
+                </div>
+                <div class="video-box">
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4409431/"><img src="./images/articleImage.png"
+                            style="width:560px; height: 315px;"></a>
+                    <p> Mental Illness is like any other Medical Illness </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="help-info" class="resource-info">
+            <div class="helpline-table">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Organisation</th>
+                            <th scope="col">Helpline Number</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>iCALL</td>
+                            <td>+91 9152987821</td>
+                        </tr>
+                        <tr>
+                            <td>GOVT MH Rehabilitation HELPLINE ‘KIRAN’</td>
+                            <td>1800-5990019</td>
+                        </tr>
+                        <tr>
+                            <td>VANDREVALA FOUNDATION</td>
+                            <td>+91 9999666555</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="resource-content">
+                <div class="video-box">
+                    <embed src="https://www.spif.in/i-am-feeling-suicidal/" style="width:560px; height: 315px;">
+                    <p> Suicide Prevention India Foundation</p>
+                </div>
+                <div class="video-box">
+                    <embed src="https://findahelpline.com/ " style="width:560px; height: 315px;">
+                    <p> Find a Helpline</p>
+                </div>
+            </div>
+        </div>
+        <div id="affirmations-info" class="resource-info">
+            <div class="resource-content">
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Zd-zetzvRhE?si=p5ZMVz5Y1gZqJgO8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> 50 Positive Affirmations for Prosperity </p>
+                </div>
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ptIAEGKw-wk?si=VM4qHKyMu_3p2-AX"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> Life Quotes to Tackle Depression and Stress </p>
+                </div>
+            </div>
+            <div class="resource-content">
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tqWg0sMXM-I?si=_5vzylPIB2YMm-ep"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> 21 "I AM" affirmations </p>
+                </div>
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EXt7JIoDyHk?si=qZ40hkWaek3K8Ivm"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> 300 Best Motivational Quotes </p>
+                </div>
+            </div>
+        </div>
+        <div id="mindfulness-info" class="resource-info">
+            <div class="resource-content">
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fcRANlaqf9c?si=nrh-7oFAcvE3gEhs"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> How Mindfulness Helps Stress </p>
+                </div>
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/v-w-vSvi-24?si=5gOfjPjHX4uNyuvG"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> Mindful Breathing for Anxiety </p>
+                </div>
+            </div>
+            <div class="resource-content">
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/79lBjtqupB8?si=V-55ovTkBdURmCKC"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> 10 minute Guided Mindfulness Session </p>
+                </div>
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lE6RYpe9IT0?si=r64wEATEFFZ-Wni0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> Relaxing Music with Nature Sounds </p>
+                </div>
+            </div>
+            <div class="resource-content">
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DbDoBzGY3vo?si=EP_etGOa26g8YEWb"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> Breathing Exercises with Guided Meditation </p>
+                </div>
+                <div class="video-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JLJqUipWRWk?si=m43l0Es2ilS7buGA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p> Peaceful Meditation Music - Deep Relaxing & Healing </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
