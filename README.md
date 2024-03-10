@@ -10,7 +10,6 @@ Welcome to MentDost, where we revolve around nurturing your emotional well-being
 
 # ChatBot using OpenAI (ChatGPT) API (with GUI)
 Ready to Use Code to have your own ChatBot using OpenAI API.
-<br>Also added WebApp Template for Reference! Thanks to [Lyubomir](https://github.com/LyubomirT)
 
 ### Steps to Use the ChatBot:
 - Install Necessary Dependencies from 'requirements.txt'. 
